@@ -1,0 +1,12 @@
+$cordova create “project”
+$cd project
+$cordova platform add android/ios/browser
+cordova plugin add cordova-plugin-inappbrowser
+cordova plugin add cordova-plugin-network-information
+cordova plugin add cordova-plugin-actionsheet
+cordova plugin add cordova-plugin-spinner-dialog
+
+
+
+Creating Keystore file
+keytool -genkey -v -keystore w3schools.keystore -alias w3schools -keyalg RSA -keysize 2048 -validity 10000
